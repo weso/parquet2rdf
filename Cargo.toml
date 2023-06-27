@@ -1,0 +1,13 @@
+[package]
+name = "parquet2rdf"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "4.3.8"
+parquet2 = "0.17.2"
+rio_api = "0.8.4"
+rio_turtle = "0.8.4"
+rio_xml = "0.8.4"
